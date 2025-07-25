@@ -527,7 +527,8 @@ form{
     color: white;
     font-family: "Poppins", sans-serif;
     background-color: #63616148;
-    width: 400px;
+    width: 100%;            /* Responsive */
+    max-width: 400px;       /* Looks same as desktop */
     height: 30PX;
     border: 1px solid #63616148;
     border-radius: 10px;
