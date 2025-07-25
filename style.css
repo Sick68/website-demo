@@ -2,7 +2,7 @@ body{
     background-color: #0e0e0e;
      overflow-x: hidden;
 }
-@media(max-width:600px){
+@media(max-width:768px){
   body {
     overflow-x: hidden;
   }
@@ -474,8 +474,8 @@ button{
     }
    .Container-Form input,
     .Container-Form textarea {
-        width: 100%;           /* Responsive */
-        max-width: 100%;       /* Remove fixed 400px */
+        width: 500px;          /* Responsive */
+           /* Remove fixed 400px */
         box-sizing: border-box;
         padding: 10px;           /* Optional: match your original padding */
         margin: 5px 0;
