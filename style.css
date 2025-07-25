@@ -1,11 +1,8 @@
+
+
 body{
     background-color: #0e0e0e;
      overflow-x: hidden;
-}
-@media(max-width:768px){
-  body {
-    overflow-x: hidden;
-  }
 }
 header{
     display: flex;
@@ -475,7 +472,7 @@ button{
    .Container-Form input,
     .Container-Form textarea {
         width: 100%;           /* Responsive */
-        max-width: 400px;       
+        max-width: 400px;     /* Remove fixed 400px */
         box-sizing: border-box;
         padding: 10px;           /* Optional: match your original padding */
         margin: 5px 0;
@@ -506,14 +503,12 @@ button{
 }
 .Container-Form{
     box-shadow: 0 0 10px blue;
-    width: 90%;
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:30px;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
+   width: 90%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 20px;
     
 }
 form{
@@ -523,16 +518,17 @@ form{
     
 }
 .Container-Form input,
-.Container-Form textarea{
-    color: white;
-    font-family: "Poppins", sans-serif;
-    background-color: #63616148;
-    width: 400px;
-    height: 30PX;
-    border: 1px solid #63616148;
-    border-radius: 10px;
-    padding: 10px;  
-    
+.Container-Form textarea {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #63616148;
+  color: white;
+  border: 1px solid #63616148;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box; 
 }
 
 
