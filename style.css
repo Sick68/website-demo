@@ -467,6 +467,12 @@ button{
     width: 250px;
     padding: 20px;
 }
+     .Container-Form input,
+    .Container-Form textarea {
+        width: 100%;           /* Responsive */
+        max-width: 100%;       /* Remove fixed 400px */
+        box-sizing: border-box;
+    }
 
     
 }
