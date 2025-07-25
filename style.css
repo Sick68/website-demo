@@ -469,7 +469,7 @@ button{
         
     }
     .Container-Form {
-    width: 90%;
+    width: 250px;
     padding: 20px;
     }
    .Container-Form input,
@@ -511,10 +511,10 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:20px;
+    padding:30px;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
-    margin: auto;
+    
 }
 form{
     background:transparent;
