@@ -541,6 +541,7 @@ form{
 .Container-Form button{
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 .Container-Form button:hover{
     background-color: blue;
