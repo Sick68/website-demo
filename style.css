@@ -2,6 +2,9 @@ body{
     background-color: #0e0e0e;
     overflow-x: hidden;
 }
+@media(max-width:600px){
+    overflow-x:hidden;
+}    
 header{
     display: flex;
     justify-content: space-between;
@@ -472,6 +475,8 @@ button{
         width: 100%;           /* Responsive */
         max-width: 100%;       /* Remove fixed 400px */
         box-sizing: border-box;
+        padding: 10px;           /* Optional: match your original padding */
+        margin: 5px 0;           /* Optional: space between fields */
     }
 
     
