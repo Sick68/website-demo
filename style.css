@@ -1,10 +1,12 @@
 body{
     background-color: #0e0e0e;
-    overflow-x: hidden;
+     overflow-x: hidden;
 }
 @media(max-width:600px){
-    overflow-x:hidden;
-}    
+  body {
+    overflow-x: hidden;
+  }
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -459,7 +461,7 @@ button{
     margin: auto;
     gap: 40px;
 }
-@media(max-width:600px){
+@media(max-width:768px){
     .Contact-Container{
         display: flex;
         flex-direction: column;
@@ -469,15 +471,16 @@ button{
     .Container-Form {
     width: 250px;
     padding: 20px;
-}
-     .Container-Form input,
+    }
+   .Container-Form input,
     .Container-Form textarea {
         width: 100%;           /* Responsive */
         max-width: 100%;       /* Remove fixed 400px */
         box-sizing: border-box;
         padding: 10px;           /* Optional: match your original padding */
-        margin: 5px 0;           /* Optional: space between fields */
+        margin: 5px 0;
     }
+
 
     
 }
@@ -517,18 +520,18 @@ form{
     background:transparent;
     display: flex;
     flex-direction: column;
+    
 }
 .Container-Form input,
 .Container-Form textarea{
     color: white;
     font-family: "Poppins", sans-serif;
     background-color: #63616148;
-    width: 400PX;
+    width: 400px;
     height: 30PX;
     border: 1px solid #63616148;
     border-radius: 10px;
-    padding: 10px;
-   
+    padding: 10px;  
     
 }
 
