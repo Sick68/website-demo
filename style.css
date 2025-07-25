@@ -125,7 +125,7 @@ ul a:hover{
 
     }
 }
-button{
+.Hero-section button{
     font-family: "Poppins", sans-serif;
     color: white;
     width: 150px;
@@ -135,6 +135,12 @@ button{
     border-color: blue;
     background-color: #0e0e0e;
     padding: 10px ;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.Hero-section button:hover{
+    background-color: blue;
+    
 }
 @media(max-width:600px){
     button{
@@ -338,7 +344,8 @@ button{
   align-items: center;
   margin:50px auto;
   background-color: #1f1f1f;
-  border: 2px solid ;
+  
+  box-shadow: 0 0 10px blue;
   padding: 40px;
   border-radius: 30px;
 }
@@ -362,6 +369,7 @@ button{
 .Project-box2{
   width: 900px;
   height: 400px;
+   box-shadow: 0 0 10px blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -383,6 +391,7 @@ button{
 }
 .Project-box3{
   width: 900px;
+  box-shadow: 0 0 10px blue;
   height: 400px;
   display: flex;
   justify-content: center;
